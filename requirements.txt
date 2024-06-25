@@ -1,0 +1,16 @@
+pandas
+pyarrow
+polars
+duckdb
+streamlit
+streamlit-searchbox
+altair
+matplotlib
+sqlalchemy
+ipykernel
+seaborn
+holoviews
+hvplot
+bokeh
+parquet-tools
+watchdog
