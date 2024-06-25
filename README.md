@@ -58,5 +58,5 @@ Content adapted from:
 - https://duckdb.org/2021/12/03/duck-arrow.html
 - https://github.com/gabriel-garciae/one_billion_row_challenge_python
 - https://medium.com/@octavianzarzu/build-and-deploy-apps-with-duckdb-and-streamlit-in-under-one-hour-852cd31cccce
-- https://medium.com/@octavianzarzu/build-and-deploy-apps-with-duckdb-and-streamlit-in-under-one-hour-852cd31cccce
+- https://github.com/octavianzarzu/flight-prices-streamlit-app-1
 - https://github.com/gabriel-garciae/one_billion_row_challenge_python
