@@ -931,4 +931,3 @@ lazy_fish_transformed.explain(streaming=True)
 # visualize the query plan as a graph
 
 lazy_fish_transformed.show_graph()
-

@@ -1,4 +1,5 @@
 .venv
 data/measurements.txt
 data/expedia-itineraries.snappy.parquet
+data/lineitemsf1.snappy.parquet
 duckdb-database/
