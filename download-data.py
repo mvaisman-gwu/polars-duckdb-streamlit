@@ -6,6 +6,6 @@ local_filename = "data/expedia-itineraries.snappy.parquet"
 urlretrieve(url, local_filename)
 
 
-url = "https://app.box.com/index.php?rm=box_download_shared_file&shared_name=1t8rcuj8285ev1sk2rvbbmp91i8bib0q&file_id=f_1648595084523"
-local_filename = "data/lineitemsf1.snappy.parquet"
-urlretrieve(url, local_filename)
+#url = "https://app.box.com/index.php?rm=box_download_shared_file&shared_name=1t8rcuj8285ev1sk2rvbbmp91i8bib0q&file_id=f_1648595084523"
+#local_filename = "data/lineitemsf1.snappy.parquet"
+#urlretrieve(url, local_filename)

@@ -5,7 +5,7 @@ In this session, you will learn about newer tools that allow you to work more ef
 - [Polars](https://pola.rs/): a new dataframe library written in the [Rust programming language](https://www.rust-lang.org/)
 - [DuckDB](https://duckdb.org/): a portable and lightweight analytical SQL database with great Python integration, and blazingly fast
 - [Apache Parquet](https://en.wikipedia.org/wiki/Apache_Parquet): a column-oriented data storage format (on disk) that provides efficient data compression, metadata, and partitioning capabilities
-- [Apache Arrow](https://arrow.apache.org/): the language-independent columnar memory format 
+- [Apache Arrow](https://arrow.apache.org/): the language-independent columnar memory format
 - [Streamlit](https://streamlit.io/): great for building dashboards with Python and turning data scripts into shareable web apps
 
 ## Python libraries introduced
@@ -40,13 +40,13 @@ Ultimately, choosing the best method that suits your needs is up to you. **As a 
 
 ## Benchmark
 
-1. Generate a one Billion row dataset by running the [generate-1brow-dataset.py](generate-1brow-dataset.py) script.
+1. Generate a 100 million row dataset by running the [generate-metrics-dataset.py](generate-metrics-dataset.py) script.
 2. Run the individual files in the `benchmark-scripts` directory to see the performance of polars, duckdb, and pandas. **run `using-pure-python.py` last.**
 
 
 ## Build a Streamlit dashboard with DuckDB and Streamlit
 
-1. Download the data for the dashboard by running the [download-expedia-itinerary-data.py](download-expedia-itinerary-data.py)
+1. Download the data for the dashboard by running the [download-expedia-itinerary-data.py](download-expedia-itinerary-data.py) (note: this will take a little while; the file is 8.5GB)
 2. Open [app.py](app.py) to explore the code for the streamlit app
 3. Run: `streamlit run app.py` in the terminal, and that will open the app in a browser
 
@@ -59,4 +59,3 @@ Content adapted from:
 - https://github.com/gabriel-garciae/one_billion_row_challenge_python
 - https://medium.com/@octavianzarzu/build-and-deploy-apps-with-duckdb-and-streamlit-in-under-one-hour-852cd31cccce
 - https://github.com/octavianzarzu/flight-prices-streamlit-app-1
-- https://github.com/gabriel-garciae/one_billion_row_challenge_python
